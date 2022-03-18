@@ -1,5 +1,6 @@
 $(document).ready(function(){//carga la pagina (se ejecuta solo una vez)
     const infonum1 = {};
+    
     const profesiones = [];
     $('#enviar').click(function(){//asignando la funcion a un evento (cuando pase evento ejecuta funcion)
         const nombre = $('#nombre');//busca valor del id nombre en HTML y se lo agrega la const nombre 
