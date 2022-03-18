@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto2</title>
+    <script
+      src="https://kit.fontawesome.com/01fdee2390.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Arimo"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Allerta"
+    />
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/index.js"></script>
+  </head>
+  <body>
+    <nav class="top">
+      Formulario Perron &nbsp;<i class="fa-solid fa-paw"></i>
+    </nav>
+    //
+    <div class="column">
+    <div id="formulario1"class="column formulario aparecer">
+         <p>Nombre</p>
+       <input id="nombre" class="inputstyle" type="text" />
+         <p>Apellido</p>
+         <input id="apellido" class="inputstyle" type="text" />
+         <p>Fecha de Nacimiento</p>
+         <input id="fecha"
+           class="inputstyle"
+           type="date"
+           value=""
+           min="1950-01-01"
+           max="2030-12-31"
+         />
+         <br />
+         <button id="enviar">Enviar</button>
+       </div>
+     </div>
+    <div class="column">
+      <div id="formulario2"class="column formulario ocultar">
+        <p>Profesion</p>
+        <button id="agregar">Agregar</button>
+        <button id="submit">Submit</button>
+        <br>
+        <input id="input1" class="inputstyle" type="text" />
+        <br>
+      </div>
+    </div>
+    <div class="column">
+      <div id="resumen"class="column formulario ocultar">
+        <div id="nombreR"></div>
+        <div id="apellidoR"></div>
+        <div id="fechaR"></div>
+        <div id="profesiones"></div>
+      </div>
+    </div>
+    <footer class="bottom">Shipo mucho molesta Dorime</footer>
+  </body>
+</html>
